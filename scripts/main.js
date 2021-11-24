@@ -47,12 +47,12 @@ const getComments = async (postId) => {
   const comments = await fetch("https://jsonplaceholder.typicode.com/comments");
   const jsonComments = await comments.json();
   //if (jsonComments.postID < 4){
-    return comments.postID == 1;
+   // return comments.postID == 1;
  //}
 
 }
 
-console.log(getComments(1));
+
 
 // 4) Create a function named "getUser".
 // This function needs to accept a "userID"
